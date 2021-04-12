@@ -1,4 +1,4 @@
-/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
+hea/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
 
 /*
  * What follows is the result of much research on cross-browser styling.
@@ -95,41 +95,44 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
+/*Large Background Image*/
 html {
-  background-color: #fff;
+  background-color: #222;
   height: 100%;
+  width: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
   padding: 2em;
-  font-size: 1.25em;
+  color: #fff;
   height: 100%;
 }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
+  align-items: center;
 }
 
 .div-1, .div-2, .div-3 {
-  /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #fff;
+  line-height: 1.5em;
+  font-size: 1.25em;
   width: 30%;
+  height: auto;
 }
 
-
-
+.wrapper span {
+  font-family: 'Zilla Slab', serif;
+  font-size: 1.3em;
+}
 
 /* ==========================================================================
    Helper classes
